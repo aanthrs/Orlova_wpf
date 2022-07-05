@@ -1,0 +1,18 @@
+﻿<Window x:Class="Orlova_106.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Orlova_106"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtbox" HorizontalAlignment="Left" Height="23" Margin="276,108,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="94,108,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.054,0.383"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="94,187,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.913,0.713"/>
+        <Button Content="Авторизироваться" HorizontalAlignment="Left" Margin="223,299,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="416,299,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox x:Name="psdbox" HorizontalAlignment="Left" Height="23" Margin="276,187,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
